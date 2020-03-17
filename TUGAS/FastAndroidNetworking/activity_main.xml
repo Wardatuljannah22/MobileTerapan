@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/cg"
+    tools:context=".MainActivity">
+<!--    <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--        android:id="@+id/card_view"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="380dp"-->
+<!--        android:layout_margin="8dp">-->
+
+<!--        <RelativeLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent">-->
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal"
+
+        android:gravity="center">
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="100px"
+            android:gravity="center"
+            android:paddingTop="10px">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_gravity="center"
+                android:text="Jadwal Sholat"
+                android:textColor="#890000"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+        </TableRow>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:layout_columnWeight="1"
+            android:layout_marginLeft="18dp"
+            android:layout_marginRight="18dp"
+            app:cardElevation="20dp"
+            android:layout_marginTop="30dp"
+            app:cardCornerRadius="20dp">
+
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#40808080"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:stretchColumns="1">
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="150dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="50dp"
+                        android:gravity="left"
+                        android:text="Shubuh"
+                        android:textColor="#000000"
+                        android:textSize="20dp"></TextView>
+
+                    <TextView
+                        android:id="@+id/txt1"
+                        android:layout_width="133dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="20dip"
+                        android:gravity="center"
+                        android:textColor="#000000"
+                        android:textSize="20dp"></TextView>
+
+
+                </TableRow>
+
+
+                <TableRow android:layout_marginTop="20dip">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="50dp"
+                        android:text="Dhuha"
+                        android:textColor="#000000"
+                        android:textSize="20dp"></TextView>
+
+                    <TextView
+                        android:id="@+id/txt2"
+                        android:layout_width="133dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="20dip"
+                        android:gravity="center"
+                        android:textColor="#000000"
+                        android:textSize="20dp">
+
+                    </TextView>
+
+                </TableRow>
+
+                <TableRow android:layout_marginTop="20dip">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="50dp"
+                        android:text="Dhuhur"
+                        android:textColor="#000000"
+                        android:textSize="20dp"></TextView>
+
+                    <TextView
+                        android:id="@+id/txt3"
+                        android:layout_width="133dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="20dip"
+                        android:gravity="center"
+                        android:textColor="#000000"
+                        android:textSize="20dp">
+
+                    </TextView>
+
+                </TableRow>
+
+                <TableRow android:layout_marginTop="20dip">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="50dp"
+                        android:text="Ashar"
+                        android:textColor="#000000"
+                        android:textSize="20dp"></TextView>
+
+                    <TextView
+                        android:id="@+id/txt4"
+                        android:layout_width="133dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="20dip"
+                        android:gravity="center"
+                        android:textColor="#000000"
+                        android:textSize="20dp">
+
+                    </TextView>
+
+                </TableRow>
+
+                <TableRow android:layout_marginTop="20dip">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="50dp"
+                        android:text="Maghrib"
+                        android:textColor="#000000"
+                        android:textSize="20dp"></TextView>
+
+                    <TextView
+                        android:id="@+id/txt5"
+                        android:layout_width="133dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="20dip"
+                        android:gravity="center"
+                        android:textColor="#000000"
+                        android:textSize="20dp">
+
+                    </TextView>
+
+                </TableRow>
+
+                <TableRow android:layout_marginTop="20dip">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="50dp"
+                        android:text="Isya'"
+                        android:textColor="#000000"
+                        android:textSize="20dp"></TextView>
+
+                    <TextView
+                        android:id="@+id/txt6"
+                        android:layout_width="133dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="20dip"
+                        android:gravity="center"
+                        android:textColor="@android:color/black"
+                        android:textSize="20dp">
+
+                    </TextView>
+
+                </TableRow>
+            </TableLayout>
+        </androidx.cardview.widget.CardView>
+
+        <TableRow
+            android:gravity="center"
+            android:layout_marginTop="20dip"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_gravity="center"
+                android:layout_span="2"
+                android:text=" Update Jadwal Sholat"
+                android:textColor="#890000"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_marginTop="40dp" >
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="50dp"
+                android:gravity=""
+                android:text="Shubuh"
+                android:textColor="#FFF"
+                android:textSize="20dp"></TextView>
+
+            <EditText
+                android:id="@+id/editText1"
+                android:layout_width="133dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:layout_marginLeft="20dip"
+                android:textColor="#FFF"
+                android:textSize="20dp"></EditText>
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_marginTop="10dp" >
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="50dp"
+                android:gravity=""
+                android:text="Dhuha"
+                android:textColor="#FFF"
+                android:textSize="20dp"></TextView>
+
+            <EditText
+                android:id="@+id/editText2"
+                android:layout_width="133dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:layout_marginLeft="20dip"
+                android:textColor="#FFF"
+                android:textSize="20dp"></EditText>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_marginTop="10dp" >
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="50dp"
+                android:gravity=""
+                android:text="Dhuhur"
+                android:textColor="#FFF"
+                android:textSize="20dp"></TextView>
+
+            <EditText
+                android:id="@+id/editText3"
+                android:layout_width="133dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:layout_marginLeft="20dip"
+                android:textColor="#FFF"
+                android:textSize="20dp"></EditText>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_marginTop="10dp" >
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="50dp"
+                android:gravity=""
+                android:text="Ashar"
+                android:textColor="#FFF"
+                android:textSize="20dp"></TextView>
+
+            <EditText
+                android:id="@+id/editText4"
+                android:layout_width="133dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:layout_marginLeft="20dip"
+                android:textColor="#FFF"
+                android:textSize="20dp"></EditText>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_marginTop="10dp" >
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="50dp"
+                android:gravity=""
+                android:text="Maghrib"
+                android:textColor="#FFF"
+                android:textSize="20dp"></TextView>
+
+            <EditText
+                android:id="@+id/editText5"
+                android:layout_width="133dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:layout_marginLeft="20dip"
+                android:textColor="#FFF"
+                android:textSize="20dp"></EditText>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_marginTop="10dp" >
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="50dp"
+                android:gravity=""
+                android:text="Isya'"
+                android:textColor="#FFF"
+                android:textSize="20dp"></TextView>
+
+            <EditText
+                android:id="@+id/editText6"
+                android:layout_width="133dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:layout_marginLeft="20dip"
+                android:textColor="#FFF"
+                android:textSize="20dp"></EditText>
+
+        </TableRow>
+
+
+
+
+
+<!--        </TableRow>-->
+
+
+
+
+    </TableLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginTop="15dp">
+
+        <Button
+            android:id="@+id/BtnUpSholat"
+            android:layout_width="142dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:background="#3333"
+            android:layout_marginLeft="50dp"
+            android:fontFamily="@font/cherry_cream_soda"
+            android:text=" Update"
+            android:textColor="#890000"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnkembalishol"
+            android:layout_width="142dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginLeft="20dp"
+            android:background="#3333"
+            android:fontFamily="@font/cherry_cream_soda"
+            android:text=" Back"
+            android:textColor="#890000"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/hg"
+    tools:context=".Utama">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        android:gravity="center"
+        android:text="MENU"
+        android:textColor="#FF8C00"
+        android:textSize="40dp"
+        app:fontFamily="@font/cherry_cream_soda"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/Btn1"
+        android:layout_width="160dp"
+        android:layout_height="137dp"
+        android:layout_marginTop="152dp"
+        android:background="#3333"
+        android:textColor="#FF8C00"
+        android:text="Waktu Sholat"
+        android:textSize="15dp"
+        app:fontFamily="@font/cherry_cream_soda"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.123"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/Btn2"
+        android:layout_width="161dp"
+        android:layout_height="137dp"
+        android:layout_marginTop="152dp"
+        android:background="#3333"
+        android:text="Marquee"
+        android:textSize="15dp"
+        android:textColor="#FF8C00"
+        app:fontFamily="@font/cherry_cream_soda"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.848"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/Btn3"
+        android:layout_width="160dp"
+        android:layout_height="137dp"
+        android:layout_marginTop="28dp"
+        android:background="#3333"
+        android:textColor="#FF8C00"
+        android:textSize="15dp"
+        android:text="Pengumuman Masjid"
+        app:fontFamily="@font/cherry_cream_soda"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.848"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Btn4" />
+
+    <Button
+        android:id="@+id/Btn4"
+        android:layout_width="160dp"
+        android:layout_height="137dp"
+        android:layout_marginTop="28dp"
+        android:background="#3333"
+        android:text="Slide Show"
+        android:textSize="15dp"
+        android:textColor="#FF8C00"
+        app:fontFamily="@font/cherry_cream_soda"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.848"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Btn2" />
+
+    <Button
+        android:id="@+id/Btn5"
+        android:layout_width="160dp"
+        android:layout_height="137dp"
+        android:layout_marginTop="28dp"
+        android:background="#3333"
+        android:text="Tagline"
+        android:textColor="#FF8C00"
+        android:textSize="15dp"
+        app:fontFamily="@font/cherry_cream_soda"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.123"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Btn1" />
+
+    <Button
+        android:id="@+id/Btn6"
+        android:layout_width="160dp"
+        android:layout_height="137dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="28dp"
+        android:textColor="#FF8C00"
+        android:textSize="15dp"
+        android:fontFamily="@font/cherry_cream_soda"
+        android:background="#3333"
+        android:text="Identitas Masjid"
+        app:layout_constraintEnd_toStartOf="@+id/Btn3"
+        app:layout_constraintHorizontal_bias="0.405"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Btn5" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
