@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="18dp"
+    android:background="@drawable/gh"
+    android:layout_height="match_parent"
+    tools:context=".dashboard">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="70dp"
+            android:text="Data Mahasiswa"
+            android:textSize="20dp"
+            android:fontFamily="sans-serif-black"/>
+
+        <EditText
+            android:id="@+id/nama_mahasiswa"
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nama Mahasiswa"
+            android:textSize="20dp"/>
+
+        <EditText
+            android:id="@+id/nomor_mahasiswa"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nomor Mahasiswa"
+            android:textSize="20dp"/>
+
+        <EditText
+            android:id="@+id/alamat_mahasiswa"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Alamat Mahasiswa"
+            android:textSize="20dp"/>
+
+        <Button
+            android:id="@+id/btnAdd"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#C000BFFF"
+            android:text="TAMBAH DATA"
+            android:fontFamily="sans-serif-black"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/btnlogout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="#4000BFFF"
+            android:fontFamily="sans-serif-black"
+            android:text="LOG OUT" />
+
+
+</LinearLayout>
